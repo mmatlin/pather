@@ -1,1 +1,2 @@
 # pather
+Pather is a Python package that lets you put Python scripts on your system's path and binds each of them to a given command name. Modules within Python packages can be run from anywhere on the system if an entry point is specified for the package, but that is not the case for Python scripts. However, there are many tasks which can be done by just a script—a whole package shouldn't be needed for every commonly used script just to put it on the path. Pather solves that problem in a cross-platform and modular way.
